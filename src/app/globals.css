@@ -138,3 +138,17 @@
     transform: translateY(0);
   }
 }
+
+@keyframes float-up {
+  from {
+    transform: translateY(0);
+    opacity: 0;
+  }
+  10% {
+    opacity: 0.6;
+  }
+  to {
+    transform: translateY(-120vh);
+    opacity: 0;
+  }
+}
